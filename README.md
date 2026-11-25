@@ -21,6 +21,7 @@ neovim-dotfiles/
         │   └── autocmds.lua
         └── plugins/
             ├── swift.lua      sourcekit-lsp (Xcode's on macOS)
+            ├── explorer.lua   explorer shows dotfiles and git-ignored files
             ├── markdown.lua   markdownlint without the line length rule
             └── treesitter.lua tree-sitter CLI from Mason
 ```
@@ -75,7 +76,7 @@ Leader is `Space`.
 | Action | Keys |
 | --- | --- |
 | Open a project | `cd project && nvim .` |
-| File tree | `Space e` |
+| File tree | `Space e` (`H` / `I` in it hide dotfiles / git-ignored files) |
 | Bottom terminal | `Ctrl \` (or `Ctrl /` where the terminal app sends it) |
 | Leave terminal mode | `Esc Esc` |
 | Find file | `Space Space` |
