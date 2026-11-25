@@ -1,0 +1,23 @@
+# Private: kept only in the home repo (.git-home), never pushed to GitHub
+plan.md
+history.md
+CLAUDE.md
+tools/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor swap and backup files
+*.swp
+*~
+
+# Neovim test and debug leftovers (same as LazyVim starter)
+nvim/.repro
+nvim/.tests
+nvim/debug
+nvim/doc/tags
+*.log
+
+# nvim/lazy-lock.json is NOT ignored: it pins plugin versions and must be committed

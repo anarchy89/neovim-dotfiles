@@ -1,0 +1,4 @@
+# Global markdownlint settings, used by nvim/lua/plugins/markdown.lua for every Markdown file.
+# A project's own .markdownlint* file is ignored while this is passed with --config.
+config:
+  MD013: false # line length: prose lines are long and soft-wrapped, not hard-wrapped at 80
